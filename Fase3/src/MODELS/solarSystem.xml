@@ -1,0 +1,492 @@
+<world>
+    <camera>
+        <position x="10" y="10" z="10"/>
+	    <lookAt x="0" y="0" z="0"/>
+	    <up x="0" y="1" z="0"/>
+        <projection fov="60" near="1" far="1000"/>
+    </camera>
+    <group>
+        <!--SOL-->
+        <transform>
+            <color r="0.98" g="0.73" b="0.01"/>
+            <rotate time="3" x="0" y="1" z="0" />
+        </transform>		
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+    </group>
+    <group>
+        <!--MERCURIO--> 
+        <transform>
+            <color r="0.5" g="0.31" b="0.0"/>	
+            <translate time = "3" align="True">
+            	<point x = "1.41421" y = "0" z = "1.41421" />
+                <point x = "0" y = "0" z = "2" />
+                <point x = "-1.41421" y = "0" z = "1.41421" />
+                <point x = "-2" y = "0" z = "0" />
+                <point x = "-1.41421" y = "0" z = "-1.41421" />
+                <point x = "0" y = "0" z = "-2" />
+                <point x = "1.41421" y = "0" z = "-1.41421" />
+                <point x = "2" y = "0" z = "0" />
+            </translate>
+            <rotate time="5" x="0" y="1" z="0" />
+            <rotate angle="-30.0" x="0.0" y="1.0" z="0.0"/>
+            <scale x="0.1" y="0.1" z="0.1"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+    </group>
+    <group>
+        <!--VENUS--> 
+        <transform>
+            <color r="0.82" g="0.27" b="0.0"/>
+            <translate time = "7" align="True">
+                <point x = "3.5" y = "0" z = "0" /> 
+                <point x = "2.47487" y = "0" z = "-2.47487" />
+                <point x = "0" y = "0" z = "-3.5" />
+                <point x = "-2.47487" y = "0" z = "-2.47487" />
+                <point x = "-3.5" y = "0" z = "0" />
+                <point x = "-2.47487" y = "0" z = "2.47487" />
+                <point x = "0" y = "0" z = "3.5" />
+                <point x = "2.47487" y = "0" z = "2.47487" />
+            </translate>
+            <rotate time="7" x="0" y="-1" z="0" />
+            <rotate angle="90" x="0" y="1" z="0"/>
+            <scale x="0.2" y="0.2" z="0.2"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+    </group>
+    <group>
+        <!--TERRA--> 
+        <transform>
+            <color r="0.0" g="0.59" b="0.86"/>
+             <translate time = "10" align="True">
+                <point x = "4.5" y = "0" z = "0" /> 
+                <point x = "3.18198" y = "0" z = "-3.18198" />
+                <point x = "0" y = "0" z = "-4.5" />
+                <point x = "-3.18198" y = "0" z = "-3.18198" />
+                <point x = "-4.5" y = "0" z = "0" />
+                <point x = "-3.18198" y = "0" z = "3.18198" />
+                <point x = "0" y = "0" z = "4.5" />
+                <point x = "3.18198" y = "0" z = "3.18198" />
+            </translate>
+            <rotate time="3" x="0" y="1" z="0" />
+            <rotate angle="233" x="0" y="1" z="0"/>
+            <scale x="0.3" y="0.3" z="0.3"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--LUA-->
+            <transform>
+                <color r="1.0" g="1.0" b="1.0"/>
+                <rotate angle="26.57" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "2.236068" y = "0" z = "0" /> 
+                    <point x = "1.58113" y = "0" z = "-1.58113" />
+                    <point x = "0" y = "0" z = "-2.236068" />
+                    <point x = "-1.58113" y = "0" z = "-1.58113" />
+                    <point x = "-2.236068" y = "0" z = "0" />
+                    <point x = "-1.58113" y = "0" z = "1.58113" />
+                    <point x = "0" y = "0" z = "2.236068" />
+                    <point x = "1.58113" y = "0" z = "1.58113" />
+                </translate>
+                <scale x="0.25" y="0.25" z="0.25"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>
+    <group>
+        <!--MARTE--> 
+        <transform>
+            <color r="0.85" g="0.46" b="0.007"/>
+            <translate time = "20" align="True">
+                <point x = "6" y = "0" z = "0" /> 
+                <point x = "4.24264" y = "0" z = "-4.24264" />
+                <point x = "0" y = "0" z = "-6" />
+                <point x = "-4.24264" y = "0" z = "-4.24264" />
+                <point x = "-6" y = "0" z = "0" />
+                <point x = "-4.24264" y = "0" z = "4.24264" />
+                <point x = "0" y = "0" z = "6" />
+                <point x = "4.24264" y = "0" z = "4.24264" />
+            </translate>
+            <rotate time="3" x="0" y="1" z="0" />
+            <rotate angle="260" x="0" y="1" z="0"/>
+            <scale x="0.15" y="0.15" z="0.15"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--LUA1-->
+            <transform>
+                <color r="1.0" g="1.0" b="1.0"/>
+                <rotate angle="-38.66" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "1.600781" y = "0" z = "0" /> 
+                    <point x = "1.13192" y = "0" z = "-1.13192" />
+                    <point x = "0" y = "0" z = "-1.600781" />
+                    <point x = "-1.13192" y = "0" z = "-1.13192" />
+                    <point x = "-1.600781" y = "0" z = "0" />
+                    <point x = "-1.13192" y = "0" z = "1.13192" />
+                    <point x = "0" y = "0" z = "1.600781" />
+                    <point x = "1.13192" y = "0" z = "1.13192" />
+                </translate>
+                <scale x="0.25" y="0.25" z="0.25"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA2-->
+            <transform>
+                <color r="0.82" g="0.73" b="0.55"/>
+                <rotate angle="33.69" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "1.802776" y = "0" z = "0" /> 
+                    <point x = "1.27475" y = "0" z = "-1.27475" />
+                    <point x = "0" y = "0" z = "-1.802776" />
+                    <point x = "-1.27475" y = "0" z = "-1.27475" />
+                    <point x = "-1.802776" y = "0" z = "0" />
+                    <point x = "-1.1.27475" y = "0" z = "1.27475" />
+                    <point x = "0" y = "0" z = "1.802776" />
+                    <point x = "1.27475" y = "0" z = "1.27475" />
+                </translate>
+                <scale x="0.3" y="0.3" z="0.3"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>               
+    <group>
+        <!--JUPITER--> 
+        <transform>
+            <color r="1.0" g="0.74" b="0.48"/>
+            <translate time = "30" align="True">
+                <point x = "8" y = "0" z = "0" /> 
+                <point x = "5.65685" y = "0" z = "-5.65685" />
+                <point x = "0" y = "0" z = "-8" />
+                <point x = "-5.65685" y = "0" z = "-5.65685" />
+                <point x = "-8" y = "0" z = "0" />
+                <point x = "-5.65685" y = "0" z = "5.65685" />
+                <point x = "0" y = "0" z = "8" />
+                <point x = "5.65685" y = "0" z = "5.65685" />
+            </translate>
+            <rotate time="6" x="0" y="1" z="0" />
+            <rotate angle="150" x="0" y="1" z="0"/>
+            <scale x="0.7" y="0.7" z="0.7"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--LUA1-->
+            <transform>
+                <color r="0.82" g="0.27" b="0.0"/>
+                <rotate angle="0.1" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "2" y = "0" z = "0" />
+                    <point x = "1.41421" y = "0" z = "-1.41421" />
+                    <point x = "0" y = "0" z = "-2" />
+                    <point x = "-1.41421" y = "0" z = "-1.41421" />
+                    <point x = "-2" y = "0" z = "0" />
+                    <point x = "-1.41421" y = "0" z = "1.41421" />
+                    <point x = "0" y = "0" z = "2" />
+            	    <point x = "1.41421" y = "0" z = "1.41421" />
+                </translate>
+                <scale x="0.1" y="0.1" z="0.1"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA2-->
+            <transform>
+                <color r="1.0" g="1.0" b="1.0"/>
+                <rotate angle="-25" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "1.732051" y = "0" z = "0" />
+                    <point x = "1.22474" y = "0" z = "-1.22474" />
+                    <point x = "0" y = "0" z = "-1.732051" />
+                    <point x = "-1.22474" y = "0" z = "-1.22474" />
+                    <point x = "-1.732051" y = "0" z = "0" />
+                    <point x = "-1.22474" y = "0" z = "1.22474" />
+                    <point x = "0" y = "0" z = "1.732051" />
+            	    <point x = "1.22474" y = "0" z = "1.22474" />
+                </translate>
+                <scale x="0.1" y="0.1" z="0.1"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA3-->
+            <transform>
+                <color r="0.92" g="0.8" b="0.38"/>
+                <rotate angle="35.26" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "1.732051" y = "0" z = "0" />
+                    <point x = "1.22474" y = "0" z = "-1.22474" />
+                    <point x = "0" y = "0" z = "-1.732051" />
+                    <point x = "-1.22474" y = "0" z = "-1.22474" />
+                    <point x = "-1.732051" y = "0" z = "0" />
+                    <point x = "-1.22474" y = "0" z = "1.22474" />
+                    <point x = "0" y = "0" z = "1.732051" />
+            	    <point x = "1.22474" y = "0" z = "1.22474" />
+                </translate>
+                <scale x="0.15" y="0.15" z="0.15"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA4-->
+            <transform>
+                <color r="0.55" g="0.42" b="0.26"/>
+                <rotate angle="-35.26" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "1.732051" y = "0" z = "0" />
+                    <point x = "1.22474" y = "0" z = "-1.22474" />
+                    <point x = "0" y = "0" z = "-1.732051" />
+                    <point x = "-1.22474" y = "0" z = "-1.22474" />
+                    <point x = "-1.732051" y = "0" z = "0" />
+                    <point x = "-1.22474" y = "0" z = "1.22474" />
+                    <point x = "0" y = "0" z = "1.732051" />
+            	    <point x = "1.22474" y = "0" z = "1.22474" />
+                </translate>
+                <scale x="0.15" y="0.15" z="0.15"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>  
+    <group>
+        <!--SATURNO--> 
+        <transform>
+            <color r="0.56" g="0.83" b="0.42"/>
+            <translate time = "40" align="True">
+                <point x = "9.5" y = "0" z = "0" /> 
+                <point x = "6.71751" y = "0" z = "-6.71751" />
+                <point x = "0" y = "0" z = "-9.5" />
+                <point x = "-6.71751" y = "0" z = "-6.71751" />
+                <point x = "-9.5" y = "0" z = "0" />
+                <point x = "-6.71751" y = "0" z = "6.71751" />
+                <point x = "0" y = "0" z = "9.5" />
+                <point x = "6.71751" y = "0" z = "6.71751" />
+            </translate>
+            <rotate time="5" x="0" y="1" z="0" />
+            <rotate angle="-50" x="0" y="1" z="0"/>
+            <scale x="0.65" y="0.65" z="0.65"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--ANEL-->
+            <transform>
+                <rotate angle="-30" x="1" y="0.0" z="0.0"/>
+            </transform>
+            <models>
+                <model file="torus.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA1-->
+            <transform>
+                <color r="0.48" g="0.63" b="0.38"/>
+                <rotate angle="45" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "1.414214" y = "0" z = "0" />
+                    <point x = "1" y = "0" z = "-1" />
+                    <point x = "0" y = "0" z = "-1.414214" />
+                    <point x = "-1" y = "0" z = "-1" />
+                    <point x = "-1.414214" y = "0" z = "0" />
+                    <point x = "-1" y = "0" z = "1" />
+                    <point x = "0" y = "0" z = "1.414214" />
+            	    <point x = "1" y = "0" z = "1" />
+                </translate>
+                <scale x="0.15" y="0.15" z="0.15"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA2-->
+            <transform>
+                <color r="1.0" g="1.0" b="1.0"/>
+                <rotate angle="33.69" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "1.802776" y = "0" z = "0" />
+                    <point x = "1.27475" y = "0" z = "-1.27475" />
+                    <point x = "0" y = "0" z = "-1.802776" />
+                    <point x = "-1.27475" y = "0" z = "-1.27475" />
+                    <point x = "-1.802776" y = "0" z = "0" />
+                    <point x = "-1.27475" y = "0" z = "1.27475" />
+                    <point x = "0" y = "0" z = "1.802776" />
+            	    <point x = "1.27475" y = "0" z = "1.27475" />
+                </translate>
+                <scale x="0.1" y="0.1" z="0.1"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA3-->
+            <transform>
+                <color r="0.5" g="0.31" b="0.0"/>
+                <rotate angle="-56.31" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "1.802776" y = "0" z = "0" />
+                    <point x = "1.27475" y = "0" z = "-1.27475" />
+                    <point x = "0" y = "0" z = "-1.802776" />
+                    <point x = "-1.27475" y = "0" z = "-1.27475" />
+                    <point x = "-1.802776" y = "0" z = "0" />
+                    <point x = "-1.27475" y = "0" z = "1.27475" />
+                    <point x = "0" y = "0" z = "1.802776" />
+            	    <point x = "1.27475" y = "0" z = "1.27475" />
+                </translate>
+                <scale x="0.15" y="0.15" z="0.15"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>
+    <group>
+        <!--URANO--> 
+        <transform>
+            <color r="0.35" g="0.75" b="0.86"/>
+            <translate time = "50" align="True">
+                <point x = "10.5" y = "0" z = "0" /> 
+                <point x = "7.42462" y = "0" z = "-7.42462" />
+                <point x = "0" y = "0" z = "-10.5" />
+                <point x = "-7.42462" y = "0" z = "-7.42462" />
+                <point x = "-10.5" y = "0" z = "0" />
+                <point x = "-7.42462" y = "0" z = "7.42462" />
+                <point x = "0" y = "0" z = "10.5" />
+                <point x = "7.42462" y = "0" z = "7.42462" />
+            </translate>
+            <rotate time="2.5" x="0" y="-1" z="0"/>
+            <rotate angle="39" x="0" y="1" z="0"/>
+            <scale x="0.25" y="0.25" z="0.25"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--LUA1-->
+            <transform>
+                <color r="1.0" g="1.0" b="1.0"/>
+                <rotate angle="29.02" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "2.061553" y = "0" z = "0" />
+                    <point x = "1.45773" y = "0" z = "-1.45773" />
+                    <point x = "0" y = "0" z = "-2.061553" />
+                    <point x = "-1.45773" y = "0" z = "-1.45773" />
+                    <point x = "-2.061553" y = "0" z = "0" />
+                    <point x = "-1.45773" y = "0" z = "1.45773" />
+                    <point x = "0" y = "0" z = "2.061553" />
+            	    <point x = "1.45773" y = "0" z = "1.45773" />
+                </translate>
+                <scale x="0.15" y="0.15" z="0.15"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA2-->
+            <transform>
+                <color r="0.87" g="0.59" b="0.28"/>
+                <rotate angle="56.31" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "1.802776" y = "0" z = "0" />
+                    <point x = "1.27475" y = "0" z = "-1.27475" />
+                    <point x = "0" y = "0" z = "-1.802776" />
+                    <point x = "-1.27475" y = "0" z = "-1.27475" />
+                    <point x = "-1.802776" y = "0" z = "0" />
+                    <point x = "-1.27475" y = "0" z = "1.27475" />
+                    <point x = "0" y = "0" z = "1.802776" />
+            	    <point x = "1.27475" y = "0" z = "1.27475" />
+                </translate>
+                <scale x="0.25" y="0.25" z="0.25"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>
+    <group>
+        <!--NEPTUNO--> 
+        <transform>
+            <color r="0.11" g="0.33" b="0.58"/>
+            <translate time = "100" align="True">
+                <point x = "12" y = "0" z = "0" /> 
+                <point x = "8.48528" y = "0" z = "-8.48528" />
+                <point x = "0" y = "0" z = "-12" />
+                <point x = "-8.48528" y = "0" z = "-8.48528" />
+                <point x = "-12" y = "0" z = "0" />
+                <point x = "-8.48528" y = "0" z = "8.48528" />
+                <point x = "0" y = "0" z = "12" />
+                <point x = "8.48528" y = "0" z = "8.48528" />
+            </translate>
+            <rotate time="2" x="0" y="1" z="0" />
+            <rotate angle="15" x="0" y="1" z="0"/>
+            <scale x="0.2" y="0.2" z="0.2"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--LUA-->
+            <transform>
+                <color r="0.98" g="0.73" b="0.01"/>
+                <rotate angle="-26.57" x="1" y="0.0" z="0.0"/>
+                <translate time = "10" align="True">
+                    <point x = "2.236068" y = "0" z = "0" /> 
+                    <point x = "1.58113" y = "0" z = "-1.58113" />
+                    <point x = "0" y = "0" z = "-2.236068" />
+                    <point x = "-1.58113" y = "0" z = "-1.58113" />
+                    <point x = "-2.236068" y = "0" z = "0" />
+                    <point x = "-1.58113" y = "0" z = "1.58113" />
+                    <point x = "0" y = "0" z = "2.236068" />
+                    <point x = "1.58113" y = "0" z = "1.58113" />
+                </translate>
+                <scale x="0.25" y="0.25" z="0.25"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group> 
+    <group>
+        <!--COMETA--> 
+        <transform>
+            <color r="0.5" g="0.31" b="0.0"/>	
+            <translate time = "20" align="True">
+            	<point x = "-1" y = "-3" z = "-4" />
+                <point x = "-3" y = "0" z = "4" />
+                <point x = "4" y = "3" z = "2" />
+                <point x = "3" y = "0" z = "0" />
+            </translate>
+            <scale x="0.1" y="0.1" z="0.1"/>
+        </transform>
+        <models>
+            <model file="bezier.3d"/>
+        </models>
+    </group>
+</world>

@@ -1,0 +1,7 @@
+D:/Aulas/3_ANO_2SEM/CG/Projeto/FASE I/tinyxml2/out/install/x64-Debug/lib/tinyxml2.lib
+D:/Aulas/3_ANO_2SEM/CG/Projeto/FASE I/tinyxml2/out/install/x64-Debug/lib/cmake/tinyxml2/tinyxml2-static-targets.cmake
+D:/Aulas/3_ANO_2SEM/CG/Projeto/FASE I/tinyxml2/out/install/x64-Debug/lib/cmake/tinyxml2/tinyxml2-static-targets-debug.cmake
+D:/Aulas/3_ANO_2SEM/CG/Projeto/FASE I/tinyxml2/out/install/x64-Debug/lib/cmake/tinyxml2/tinyxml2-config.cmake
+D:/Aulas/3_ANO_2SEM/CG/Projeto/FASE I/tinyxml2/out/install/x64-Debug/lib/cmake/tinyxml2/tinyxml2-config-version.cmake
+D:/Aulas/3_ANO_2SEM/CG/Projeto/FASE I/tinyxml2/out/install/x64-Debug/include/tinyxml2.h
+D:/Aulas/3_ANO_2SEM/CG/Projeto/FASE I/tinyxml2/out/install/x64-Debug/lib/pkgconfig/tinyxml2.pc

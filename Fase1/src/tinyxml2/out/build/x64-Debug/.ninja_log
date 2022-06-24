@@ -1,0 +1,11 @@
+# ninja log v5
+4	389	6685616096112177	CMakeFiles/tinyxml2.dir/tinyxml2.cpp.obj	35a905543963c24
+0	524	6685616097462500	CMakeFiles/xmltest.dir/xmltest.cpp.obj	6fa53f31e8860f28
+390	562	6685616097192508	tinyxml2.lib	fa23d43a7963ee7d
+562	1112	6685616102818029	xmltest.exe	c18daff820ab2f69
+1112	1217	0	CMakeFiles/install.util	fafd77d6dd3d6f5
+0	11	0	clean	9992afb1f91dc381
+0	390	6685616621508752	CMakeFiles/tinyxml2.dir/tinyxml2.cpp.obj	35a905543963c24
+4	473	6685616622338711	CMakeFiles/xmltest.dir/xmltest.cpp.obj	6fa53f31e8860f28
+390	749	6685616622118752	tinyxml2.lib	fa23d43a7963ee7d
+750	1001	6685616626791098	xmltest.exe	c18daff820ab2f69

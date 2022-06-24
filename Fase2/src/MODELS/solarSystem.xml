@@ -1,0 +1,265 @@
+<world>
+    <camera>
+        <position x="10" y="10" z="10"/>
+	    <lookAt x="0" y="0" z="0"/>
+	    <up x="0" y="1" z="0"/>
+        <projection fov="60" near="1" far="1000"/>
+    </camera>
+    <group>
+        <!--SOL-->
+        <transform>
+            <color r="0.98" g="0.73" b="0.01"/>
+        </transform>		
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+    </group>
+    <group>
+        <!--MERCURIO--> 
+        <transform>
+            <color r="0.5" g="0.31" b="0.0"/>
+            <rotate angle="-30.0" x="0.0" y="1.0" z="0.0"/>
+            <translate x="2" y="0" z="0"/>
+            <scale x="0.1" y="0.1" z="0.1"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+    </group>
+    <group>
+        <!--VENUS--> 
+        <transform>
+            <color r="0.82" g="0.27" b="0.0"/>
+            <rotate angle="90" x="0" y="1" z="0"/>
+            <translate x="3.5" y="0" z="0"/>
+            <scale x="0.2" y="0.2" z="0.2"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+    </group>
+    <group>
+        <!--TERRA--> 
+        <transform>
+            <color r="0.0" g="0.59" b="0.86"/>
+            <rotate angle="233" x="0" y="1" z="0"/>
+            <translate x="4.5" y="0" z="0"/>
+            <scale x="0.3" y="0.3" z="0.3"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--LUA-->
+            <transform>
+                <color r="1.0" g="1.0" b="1.0"/>
+                <translate x="0" y="1" z="2"/>
+                <scale x="0.25" y="0.25" z="0.25"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>
+    <group>
+        <!--MARTE--> 
+        <transform>
+            <color r="0.85" g="0.46" b="0.007"/>
+            <rotate angle="260" x="0" y="1" z="0"/>
+            <translate x="6" y="0" z="0"/>
+            <scale x="0.15" y="0.15" z="0.15"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--LUA1-->
+            <transform>
+                <color r="1.0" g="1.0" b="1.0"/>
+                <translate x="0" y="-1" z="-1.25"/>
+                <scale x="0.25" y="0.25" z="0.25"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA2-->
+            <transform>
+                <color r="0.82" g="0.73" b="0.55"/>
+                <translate x="0" y="1" z="-1.5"/>
+                <scale x="0.3" y="0.3" z="0.3"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>               
+    <group>
+        <!--JUPITER--> 
+        <transform>
+            <color r="1.0" g="0.74" b="0.48"/>
+            <rotate angle="150" x="0" y="1" z="0"/>
+            <translate x="8" y="0" z="0"/>
+            <scale x="0.7" y="0.7" z="0.7"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--LUA1-->
+            <transform>
+                <color r="0.82" g="0.27" b="0.0"/>
+                <translate x="-2" y="0" z="0"/>
+                <scale x="0.1" y="0.1" z="0.1"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA2-->
+            <transform>
+                <color r="1.0" g="1.0" b="1.0"/>
+                <translate x="-1" y="1" z="-1"/>
+                <scale x="0.1" y="0.1" z="0.1"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA3-->
+            <transform>
+                <color r="0.92" g="0.8" b="0.38"/>
+                <translate x="1" y="1" z="1"/>
+                <scale x="0.15" y="0.15" z="0.15"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA4-->
+            <transform>
+                <color r="0.55" g="0.42" b="0.26"/>
+                <translate x="1" y="-1" z="1"/>
+                <scale x="0.15" y="0.15" z="0.15"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>  
+    <group>
+        <!--SATURNO--> 
+        <transform>
+            <color r="0.56" g="0.83" b="0.42"/>
+            <rotate angle="-50" x="0" y="1" z="0"/>
+            <translate x="9.5" y="0" z="0"/>
+            <scale x="0.65" y="0.65" z="0.65"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--ANEL-->
+            <transform>
+                <rotate angle="-30" x="1" y="0.0" z="0.0"/>
+            </transform>
+            <models>
+                <model file="torus.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA1-->
+            <transform>
+                <color r="0.48" g="0.63" b="0.38"/>
+                <translate x="0" y="1" z="1"/>
+                <scale x="0.15" y="0.15" z="0.15"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA2-->
+            <transform>
+                <color r="1.0" g="1.0" b="1.0"/>
+                <translate x="1.5" y="1" z="0"/>
+                <scale x="0.1" y="0.1" z="0.1"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA3-->
+            <transform>
+                <color r="0.5" g="0.31" b="0.0"/>
+                <translate x="1" y="-1.5" z="0"/>
+                <scale x="0.15" y="0.15" z="0.15"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>
+    <group>
+        <!--URANO--> 
+        <transform>
+            <color r="0.35" g="0.75" b="0.86"/>
+            <rotate angle="39" x="0" y="1" z="0"/>
+            <translate x="10.5" y="0" z="0"/>
+            <scale x="0.25" y="0.25" z="0.25"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--LUA1-->
+            <transform>
+                <color r="1.0" g="1.0" b="1.0"/>
+                <translate x="-1.5" y="1" z="1"/>
+                <scale x="0.15" y="0.15" z="0.15"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+        <group>
+            <!--LUA2-->
+            <transform>
+                <color r="0.87" g="0.59" b="0.28"/>
+                <translate x="1" y="1.5" z="0"/>
+                <scale x="0.25" y="0.25" z="0.25"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>
+    <group>
+        <!--NEPTUNO--> 
+        <transform>
+            <color r="0.11" g="0.33" b="0.58"/>
+            <rotate angle="15" x="0" y="1" z="0"/>
+            <translate x="12" y="0" z="0"/>
+            <scale x="0.2" y="0.2" z="0.2"/>
+        </transform>
+        <models>
+            <model file="sphere.3d"/>
+        </models>
+        <group>
+            <!--LUA-->
+            <transform>
+                <color r="0.98" g="0.73" b="0.01"/>
+                <translate x="0" y="-1" z="2"/>
+                <scale x="0.25" y="0.25" z="0.25"/>
+            </transform>
+            <models>
+                <model file="sphere.3d"/>
+            </models>
+        </group>
+    </group>    
+</world>

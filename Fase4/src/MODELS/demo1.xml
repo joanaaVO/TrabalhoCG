@@ -1,0 +1,23 @@
+<world>
+    <camera>
+        <position x="10" y="10" z="10"/>
+	    <lookAt x="0" y="0" z="0"/>
+	    <up x="0" y="1" z="0"/>
+        <projection fov="60" near="1" far="1000"/>
+    </camera>
+    <lights>
+    	<light type="point" posx="10" posy="0" posz="0"/>
+    </lights>
+    <group>
+        <!--TENNIS BALL-->
+        <transform>
+            <color r="0.0" g="0.59" b="0.86"/>
+            <rotate time="3" x="0" y="1" z="0" />
+        </transform>		
+        <models>
+		<model file="sphere.3d">
+	            <texture file ="tennis.png"/>
+		</model>
+        </models>
+    </group>
+</world>

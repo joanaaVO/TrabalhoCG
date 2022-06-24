@@ -1,0 +1,10 @@
+prefix=D:/Aulas/3_ANO_2SEM/CG/Projeto/FASE I/tinyxml2/out/install/x64-Debug
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: TinyXML2
+Description: simple, small, C++ XML parser
+Version: 9.0.0
+Libs: -L${libdir} -ltinyxml2
+Cflags: -I${includedir}
